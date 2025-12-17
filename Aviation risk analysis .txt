@@ -1,0 +1,94 @@
+PROJECT INTRODUCTION
+The aviation industry continually seeks to have reliable operations with very low risk. Tis project aims to provide a comprehensive analysis for historical aviation accidents to guide the company on the best investment
+
+PROJECT OVERVIEW
+The projects intent is to analyze past aircraft accidents to understand their causes, predict the likely hood of future risks, and offer practical insights to the company's head of aviation.
+
+PROJECT GOALS
+Analyse and evaluate data to identify the lowest risk aircraft and help the company decide which aircraft to purchase.
+
+DATA SOURCE
+The source of this dataset is kaggle. It contains aviation accident records from the year 1948 to 2022 with differnt details like aircraft category, accident location (longitude and latitude), and the weather during the accidents
+
+STAKEHOLDERS
+Director of aviation division  
+Responsibility: Responsible for making strategic decisions regarding the procurement of new aircraft.
+Requirements: Requires detailed Information about aircraft safety and operational risks to make informed investment choices.
+
+Finance team/ Investors
+Responsibility: Evaluates the financial position of the company to purchase the aircraft.
+Requirements: Insights into cost-effectiveness.
+
+Business Understanding
+Our company seeks to venture into the aviation industry providing air travel services to passengers. It prioritizes safety, efficiency and customer satisfaction.
+
+Data Understanding
+1. Data loading
+Loading the dataset from kaggle helps in analyzing and and visualization
+2. Cleaning and handling missing values
+This is an important part and ensures reliability while working with your data. It deals with correcting the raw data, removing duplicates, dealing with incomplete data and examining the data structures
+3.Accident analysis
+This step helps us have a deeper look. like severity, and risks with different aircrafts.
+4. Visualization
+This step involves creating graphs, plots, histograms and heatmaps to identify patterns
+
+CONCLUSION
+1.Fatal Accident Rate by Phase of Flight
+The risk of a fatal accident is extremely high across nearly all phases of flight, proving that safety is critical at every single step.
+2.Fatal Accident Rate by Number of Engines
+More engines do not automatically mean safer; the data shows that aircraft with 1, 6, or 8 engines have a 100% fatal accident rate.
+3.Fatal Accident Rate by Aircraft Category
+The type of aircraft matters greatly; specialized categories like blimps and rockets are the most dangerous, while standard airplanes show a more favorable risk profile.
+4.Distribution of Fatal vs Non-Fatal Accidents
+Aviation accidents are overwhelmingly fatal, which means our focus must be on preventing any incident from occurring in the first place.
+
+Aircraft Purchase Recommendation for Aviation Division
+Based on the analysis of the provided aviation accident data and visualizations, I recommend the following aircraft purchase strategy to minimize operational risk:
+
+Key Findings from Data Analysis
+Engine Configuration Matters: The data clearly shows that 3-engine aircraft have the lowest fatal accident rate (0.45) compared to all other configurations. Aircraft with 1, 6, and 8 engines have a 100% fatal accident rate in accidents.
+Aircraft Category Impact: Certain aircraft categories like Blimps, Rockets, and Weight-Shift aircraft have near 100% fatal accident rates, while conventional airplanes show more favorable safety records.
+Fatal vs. Non-Fatal Accidents: Aviation accidents are overwhelmingly fatal (approximately 97% based on the visualization), emphasizing the critical importance of accident prevention.
+Specific Aircraft Recommendations
+Based on the CSV data analysis, I recommend focusing on these aircraft types:
+
+Primary Recommendation: 3-Engine Aircraft Models
+Lockheed L-1011 (TriStar)
+3-engine configuration (lowest fatal accident rate)
+Turbo Fan engines (generally more reliable than reciprocating)
+Used in commercial operations (Part 121: Air Carrier)
+Good safety record in the dataset
+McDonnell Douglas DC-10
+3-engine configuration
+Turbo Fan engines
+Used in commercial operations
+Established safety record
+Secondary Recommendation: 2-Engine Aircraft with Good Safety Records
+If 3-engine options are limited, consider these 2-engine models:
+
+Boeing 737 Series
+2-engine configuration
+Turbo Fan engines
+Widely used in commercial operations
+Good safety record in the dataset
+Airbus A320 Series
+2-engine configuration
+Turbo Fan engines
+Modern avionics and safety features
+Good safety record
+Aircraft to Avoid
+Based on the data, I recommend avoiding:
+
+Single-engine aircraft (100% fatal accident rate in accidents)
+Specialized categories like Blimps, Rockets, and Weight-Shift aircraft
+Older aircraft models with reciprocating engines when modern alternatives are available
+Amateur-built aircraft which may have less rigorous safety standards
+Additional Recommendations
+Prioritize aircraft with modern avionics and safety systems
+Consider aircraft with Turbo Fan or Turbo Prop engines over reciprocating engines
+Ensure proper maintenance protocols are in place regardless of aircraft selection
+Invest in pilot training specific to the selected aircraft models
+Conclusion
+The data strongly suggests that 3-engine aircraft configurations offer the lowest risk of fatal accidents. The Lockheed L-1011 and McDonnell Douglas DC-10 are recommended as primary choices. If these are not available or suitable for your operations, modern 2-engine commercial aircraft like the Boeing 737 or Airbus A320 series would be acceptable alternatives.
+
+This recommendation is based solely on the historical accident data provided. Additional factors such as operational requirements, maintenance costs, and availability should also be considered in the final decision-making process.
